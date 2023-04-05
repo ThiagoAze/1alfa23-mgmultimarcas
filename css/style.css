@@ -74,14 +74,15 @@ a{
   .botao {
     margin-top: 30px;
   }
-  .produtos{
+  .produtos, .depoimentos{    /* , utilizado para colocar mais de um*/
     text-align: center;
+    margin-top: 8px;
   }
-  .produtos .titulo{
+  .titulo{
     font-size: 45px;
     font-weight: bold;
   }
-  .produtos .subtitulo{
+  .subtitulo{
     font-size: 30px;
     font-weight: bold;
     color: #474747;
@@ -99,3 +100,42 @@ a{
     transition: 0.3s;
     opacity: 0.8;
   }
+  footer{
+    background-color: #474747;
+    margin-top: 20px;
+  }
+  footer .item{
+    color: #fff;
+  }
+.depoimentos .item{
+  border: 1px solid #474747;
+  width: calc(30% - 2px);       /*calc: faz calculos de acordo com o que pede*/
+  padding: 10px 15px;
+  margin-inline: 3px;
+}
+.depoimentos img{
+  width: 100px;
+  border-radius: 50px;
+  margin-top: 8px;
+}
+.depoimentos .cliente{
+  margin-bottom: -100px;
+  padding-top: 10px;
+}
+.depoimentos .cliente .nome{
+  font-weight: bold;
+}
+.depoimentos .cliente2{
+  margin-bottom: -100px;
+  padding-top: 10px;
+}
+.depoimentos .cliente2 .nome{
+  font-weight: bold;
+}
+.depoimentos .cliente3{
+  margin-bottom: -100px;
+  padding-top: 10px;
+}
+.depoimentos .cliente3 .nome{
+  font-weight: bold;
+}
