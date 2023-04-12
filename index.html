@@ -142,24 +142,68 @@
 
     <footer> <!--Rodapé-->
         <section>
-         <div class="item">    <!--div.item*3 ou .item*3 para facilitar-->
+         <div class="item contato">    <!--div.item*3 ou .item*3 para facilitar-->
                <h3>Dados de contato</h3>
                   <p>
                   (44)99999999<br>
                   contato@seila123.com<br>
                   Rua Minha Rua, 0171 - Centro<br>
+                  Umuarama - PR<br>
+                   </p>
+
+                   <p>
+                    Desenvolvido por <b>Thiago Rodrigues Azevedo</b>
                    </p>
          </div>
-          <div class="item">
-             <h3>Fale com a gente</h3>
-              <form>
 
+          <div class="item">
+             <h3>Fale com a gente:</h3>
+              <form class="contato">    <!--Area do formulario-->
+
+                <input type="text" name="nome" placeholder="Insira seu nome:">
+
+                <input type="mail" name="email" placeholder="Seu email:">
+
+                <textarea name="mensagem" placeholder="Sua mensagem:"></textarea>
+
+                <button>Enviar</button>
               </form>
           </div>
+
           <div class="item">
-              <h3>Nos siga nas redes sociais</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="Produtos.html">Produtos</a></li>
+                <li><a href="#financiamento">Financiamento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                </li>
+            </ul>
+
+              <h3>Nos siga nas redes sociais:</h3>
+              <ul class="social">
+                <li>
+                    <a href="https://pt-br.facebook.com/" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </li>
+              </ul>
           </div>
         </section>
+
+        <script src="https://kit.fontawesome.com/b82f5ae24a.js" crossorigin="anonymous"></script>
     </footer>
 </body>
 </html>
