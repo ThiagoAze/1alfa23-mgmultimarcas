@@ -229,10 +229,78 @@ input[type=radio]{    /*alinhamento das opções*/
 .clear{
   clear: both;
 }
-/*SCREEN 480px*/
-@media (max-width: 480px){  /*menor que 480 ficara de outra cor*/
+.dropdown{
+  display: none;
+}
 
-  .contato{   /*fazer sumir esse contato*/
+
+@media (max-width: 1200px){  
+  .dropdown{
+    display: block;
+    text-align: center;
+    background-color: #ffda1f;
+  }
+  .dropdown a{
+    color: #000;
+    line-height: 30px;
+  }
+  .dropdown img{
+    margin-top: 20px;
+  }
+  .dropdown i{
+    font-size: 35px;
+  }
+  #header{   /*fazer sumir esse contato*/
     display: none!important;  /*dar prioridade ao item*/
+  }
+  .none, nav.menu, #logotipo{
+    display: none;
+  }
+  section{
+    width: 100%;
+  }
+  #header{
+    padding: 20px;
+  }
+  .dropdown-content{
+    display: none;
+  }
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+  .marcas ul li {
+    display: inline-block;
+    font-size: 25px;
+    width: 16%;
+    padding: 50px;
+  }
+  .item{
+    width: 97%;
+  }
+  .botao a {
+    font-size: 15px;
+  }
+  .depoimentos .item {
+    width: 60%;
+    max-width: 280px;
+  }
+  .item.contato {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) and (min-width:481px){
+  .marcas ul li {
+    width: 25%;
+  }
+  .item{
+    width: 30%;
+  }
+  footer .item{
+    width: 60%;
+  }
+}
+@media (max-width: 480px){
+  .div-50 {
+    width: 100%;
   }
 }
