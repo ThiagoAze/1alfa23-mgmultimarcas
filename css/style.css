@@ -234,7 +234,7 @@ input[type=radio]{    /*alinhamento das opções*/
 }
 
 
-@media (max-width: 1200px){  
+@media (max-width: 1300px){  
   .dropdown{
     display: block;
     text-align: center;
@@ -287,20 +287,116 @@ input[type=radio]{    /*alinhamento das opções*/
   .item.contato {
     text-align: center;
   }
+  .marcas {
+    text-align: center;
+  }
 }
+
 @media (max-width: 767px) and (min-width:481px){
   .marcas ul li {
     width: 25%;
+    text-align: center;
   }
   .item{
     width: 30%;
   }
-  footer .item{
-    width: 60%;
+  .depoimentos .item {
+    margin-top: 5%;
   }
-}
-@media (max-width: 480px){
+  footer .item{
+    width: 70%;
+    max-width: 500px;
+  }
+  .marcas {
+    text-align: center;
+  }
+  section {
+    width: calc(100% - 100px);
+  }
+  header section{
+    width: 100%;
+  }
+  .faleconosco.div-50{
+    width: 100%;
+  }
   .div-50 {
     width: 100%;
+    display: block;
+    margin-top: 15%;
+    margin-bottom: -10%;
+  }
+  .faleconosco textarea {
+    width: 100%;
+    max-width: 500px;
+  }
+  iframe {
+    width: 100%;
+    max-width: 600px;
+  }
+  .subtitulo {
+    line-height: 115%;
+  }
+  footer section {
+    width: calc(100% - 100px);
+    text-align: center;
+  }
+  .contato button {
+    display: inline-block;
+  }footer .item {
+    line-height: 160%;
+  }
+  .contato {
+    display: inline-grid;
+  }
+  .contato textarea {
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 480px){
+  .marcas {
+    text-align: center;
+  }
+  .content{
+    width: calc(100% - 40px);
+    padding: 10px 0;
+  }
+  .sobre h3{
+    text-align: center;
+  }
+  .div-50 {
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+  }
+  .faleconosco textarea {
+    width: 100%;
+    max-width: 500px;
+  }
+  iframe {
+    width: 100%;
+    max-width: 600px;
+  }
+  .subtitulo {
+    line-height: 115%;
+  }
+  .depoimentos .item {
+    margin-top: 2%;
+  }
+  section {
+    width: calc(100% - 100px);
+    text-align: center;
+  }
+  .contato button {
+    display: inline-block;
+  }
+  footer .item {
+    line-height: 160%;
+  }
+  .contato {
+    display: inline-grid;
+  }
+  .contato textarea {
+    margin-bottom: 10%;
   }
 }
